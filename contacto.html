@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles-grid.css">
+    <title>Herreria DiYaYa</title>
+    <link rel="icon" type="image/png" href="./assets/icon/FaviconBlanco.ico">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <img src="./assets/img/LogoNegro.png" alt="logo negro" class="nav__logo">
+            <div id="navegador" class="nav">
+                <ul class="nav__menu">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./galeria.html">Galeria</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./historia.html">Nuestra Historia</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="main">
+
+            <form action="" class="body__form">
+                <label for="nombre" class="body__form__label">Nombre :</label>
+                <input type="text" id="nombre" name="nombre" class="body__form__input" placeholder="Ingrese su nombre"
+                    required>
+                <br>
+
+                <label for="apellido" class="body__form__label">Apellido :</label>
+                <input type="text" id="apellido" name="apellido" class="body__form__input"
+                    placeholder="Ingrese su apellido">
+                <br>
+
+                <label for="email" class="body__form__label">Email :</label>
+                <input type="email" id="email" name="email" class="body__form__input" placeholder="Ingrese su email"
+                    required>
+                <br>
+
+                <label for="telefono" class="body__form__label">Telefono :</label>
+                <input type="tel" name="telefono" class="body__form__input" id="telefono"
+                    placeholder="Ingrese su telefono" required>
+                <br>
+
+                <label for="provincia" class="body__form__label">Provincia:</label><br>
+                <select name="provincia" id="provincia" class="body__form__select">
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Entre Rios">Entre Rios</option>
+                    <option value="Corrientes">Corrientes</option>
+                </select>
+                <br>
+                <br>
+                <h4>Consulte su Necesidad</h4>
+                <textarea name="texto-contacto" id="texto-contacto" cols="100" rows="8" required></textarea>
+                <br>
+                <input type="reset" class="btn">
+                <input type="submit" class="btn">
+                <br>
+            </form>
+
+
+
+        </main>
+        <footer class="footer">
+            <div class="footer__empresa">
+                <h4>NUESTRA EMPRESA</h4>
+                <p>Dedicacion al hierro, trabajo y garantias</p>
+            </div>
+
+            <div class="footer__contacto">
+                <h4>CONTACTANOS</h4>
+                <p>Telefono: 03465 - 15662881</p>
+                <div class="footer__contacto__social">
+                    <a href="https://www.facebook.com/fernando.diyaya.9" class="facebook">Facebook</a>
+                    <a href="https://www.instagram.com/herreriadiyaya" class="instagram">Instagram</a>
+                    <a href="herreriadiyaya@hotmail.com" class="envelope">Mail</a>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <p>&copy; 2022 <b>Milanesi Renzo</b> - Todos los Derechos Reservados.</p>
+        </div>
+    </div>
+</body>
+
+</html>
