@@ -1,0 +1,34 @@
+.navbar-brand > img{
+    width: 75px;
+    height: 75px;
+}
+
+.navbar{
+    background: rgb(231,129,66);
+background: linear-gradient(35deg, rgba(231,129,66,1) 21%, rgba(255,225,91,1) 87%);
+}
+
+.galeria img{
+    width: 100%;
+    height: 450px;
+    object-fit: revert;
+}
+
+.galeria .col-lg-4{
+    padding: 10px;
+}
+
+.galeria img:hover{
+    border: 5px solid white;
+}
+
+.cuerpo-index img{
+    width: 100%;
+    height: 450px;
+    object-fit: revert;
+}
+
+.border-servicios{
+    border: 1px solid black;
+}
+
