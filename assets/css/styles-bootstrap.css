@@ -39,3 +39,9 @@ textarea {
 
     width: 100%;
 }
+
+
+.nav a:hover {
+    background-color: black;
+    transition: 0.8s;
+}
