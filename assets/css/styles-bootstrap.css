@@ -1,47 +1,44 @@
-.navbar-brand > img{
-    width: 75px;
-    height: 75px;
+.navbar {
+  background: #e78142;
+  background: linear-gradient(35deg, #e78142 21%, #ffe15b 87%);
 }
 
-.navbar{
-    background: rgb(231,129,66);
-background: linear-gradient(35deg, rgba(231,129,66,1) 21%, rgba(255,225,91,1) 87%);
+.navbar .navbar-brand > img {
+  width: 75px;
+  height: 75px;
 }
 
-.galeria img{
-    width: 100%;
-    height: 450px;
-    object-fit: revert;
+.navbar .nav a:hover {
+  background-color: black;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
-.galeria .col-lg-4{
-    padding: 10px;
+.cuerpo-index img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: revert;
+     object-fit: revert;
 }
 
-.galeria img:hover{
-    border: 5px solid white;
+.galeria img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: revert;
+     object-fit: revert;
 }
 
-.cuerpo-index img{
-    width: 100%;
-    height: 450px;
-    object-fit: revert;
-}
-
-.border-servicios{
-    border: 1px solid black;
+.galeria .col-lg-4 {
+  padding: 10px;
 }
 
 textarea {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-
-.nav a:hover {
-    background-color: black;
-    transition: 0.8s;
+.border-servicios {
+  border: 1px solid black;
 }
+/*# sourceMappingURL=styles-bootstrap.css.map */
