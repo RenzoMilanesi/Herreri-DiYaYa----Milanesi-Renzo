@@ -42,6 +42,11 @@ textarea {
   width: 100%;
 }
 
+.form-btn .form-btn-reset, .form-btn .form-btn-submit {
+  background-color: black;
+  color: white;
+}
+
 .border-servicios {
   border: 1px solid black;
 }
