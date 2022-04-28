@@ -41,4 +41,9 @@ textarea {
 .border-servicios {
   border: 1px solid black;
 }
+
+footer {
+  background: #ffe15b;
+  background: linear-gradient(35deg, #ffe15b 21%, #feee5a 23%, #df8c59 86%);
+}
 /*# sourceMappingURL=styles-bootstrap.css.map */
