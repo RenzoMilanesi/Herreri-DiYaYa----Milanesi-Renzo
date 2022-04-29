@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   background: #e78142;
   background: linear-gradient(35deg, #e78142 21%, #ffe15b 87%);

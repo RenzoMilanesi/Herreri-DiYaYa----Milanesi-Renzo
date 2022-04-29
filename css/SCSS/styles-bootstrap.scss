@@ -2,6 +2,11 @@
 @import 'mixin';
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     background: rgb(231, 129, 66);
     background: linear-gradient(35deg, rgba(231, 129, 66, 1) 21%, rgba(255, 225, 91, 1) 87%);
