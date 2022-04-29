@@ -52,50 +52,36 @@
     <!-- Navbar -->
 
     <!-- Cuerpo Contacto -->
-    <div class="text-center mt-1 mb-5 font-weight-bold ">
-        <h1>Contactenos!</h1>
-    </div>
-    <div class="container card mb-3 bg-dark text-white >
-        <form>
-            <div class="row">
-                <div class="d-flex flex-column mt-3">
-                    <div class="mb-1"><label for="nombre" class="body__form__label">Nombre :</label>
-                        <input type="text" id="nombre" name="nombre" class="body__form__input"
-                            placeholder="Ingrese su nombre" required>
-                    </div>
-                    <div class="mb-1"> <label for="apellido" class="body__form__label">Apellido :</label>
-                        <input type="text" id="apellido" name="apellido" class="body__form__input"
-                            placeholder="Ingrese su apellido"></div>
-                    <div class="mb-1"><label for="email" class="body__form__label">Email :</label>
-                        <input type="email" id="email" name="email" class="body__form__input"
-                            placeholder="Ingrese su email" required></div>
-                    <div class="mb-1"><label for="telefono" class="body__form__label">Telefono :</label>
-                        <input type="tel" name="telefono" class="body__form__input" id="telefono"
-                            placeholder="Ingrese su telefono" required></div>
-                    <div class="mb-3"><label for="provincia" class="body__form__label">Provincia:</label>
-                        <select name="provincia" id="provincia" class="body__form__select">
-                            <option value="Santa Fe">Santa Fe</option>
-                            <option value="Entre Rios">Entre Rios</option>
-                            <option value="Corrientes">Corrientes</option>
-                        </select></div>
-                    <div>
-
-                        <h4>Consulte su Necesidad</h4>
-                        <textarea name="texto-contacto" id="texto-contacto" cols="100" rows="8" required></textarea>
-
-
-
-                    </div>
-                    <div class="d-inline mb-2 form-btn">
-                        <input type="reset" class="btn  form-btn-reset ">
-                        <input type="submit" class="btn form-btn-submit"></div>
-
-
-                </div>
+   <div class="d-flex justify-content-center ">
+    <div class="container card m-1">
+        <!-- <h1>Contactanos</h1> -->
+        <form class="row g-3 px-2 m-2">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="col-md-6">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellido" required>
+            </div>
+            <div class="col-md-8">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="col-md-4">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="text" class="form-control" id="telefono" >
+            </div>
+            <div class="col-md-12">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
     </div>
-
+</div>
     <!--  Fin Cuerpo Contacto -->
 
     <!-- Inicio Footer -->
@@ -140,6 +126,8 @@
                 </div>
             </div>
         </div>
+
+        
 
 
         <!-- Copyright -->
