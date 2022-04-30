@@ -53,12 +53,20 @@ textarea {
 }
 
 .border-servicios {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 footer {
   background: #ffe15b;
   background: linear-gradient(35deg, #ffe15b 21%, #feee5a 23%, #df8c59 86%);
+}
+
+/*Servicios*/
+.servicios-global {
+  background-size: 100% 100%;
+  background-image: url("../img/fondo-servicios.jpg");
+  background-position: -145px -365px;
+  background-size: auto;
 }
 
 /*Redes sociales*/

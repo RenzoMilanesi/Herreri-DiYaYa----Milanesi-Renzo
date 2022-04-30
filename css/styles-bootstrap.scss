@@ -62,14 +62,24 @@ textarea {
 }
 
 .border-servicios {
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 footer {
     background: rgb(255, 225, 91);
     background: linear-gradient(35deg, rgba(255, 225, 91, 1) 21%, rgba(254, 238, 90, 1) 23%, rgba(223, 140, 89, 1) 86%);
 }
+/*Servicios*/
 
+
+
+
+.servicios-global{
+    background-size: 100% 100%;
+    background-image: url("../img/fondo-servicios.jpg");
+    background-position: -145px -365px;
+    background-size:auto;
+}
 /*Redes sociales*/
 
 .wrapper {
