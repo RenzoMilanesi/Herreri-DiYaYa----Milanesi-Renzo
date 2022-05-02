@@ -1,5 +1,8 @@
 @import 'maps';
 @import 'mixin';
+.animate__animated.animate__bounce {
+    --animate-duration: 1s;
+  }
 
 
 * {
@@ -69,6 +72,42 @@ footer {
     background: rgb(255, 225, 91);
     background: linear-gradient(35deg, rgba(255, 225, 91, 1) 21%, rgba(254, 238, 90, 1) 23%, rgba(223, 140, 89, 1) 86%);
 }
+
+/*Conocenos*/
+.conocenos-cuerpo {
+    background: url(../img/fondo-conocenos-2.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+    .row {
+
+        .columna-1 {
+            
+            color: white;
+            background-color: #7B7263;
+            opacity: 83%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px;
+            p{
+                padding: 20px;
+            }
+        }
+
+        .columna-2 {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 300px;
+                height: 300px;
+
+            }
+        }
+    }
+}
+
 
 /*Servicios*/
 
@@ -192,23 +231,27 @@ footer {
 
 /*Comienzo contacto*/
 .cuerpo-contacto {
-    background:url(../img/fondo-contacto.jpg) ;
+    background: url(../img/fondo-contacto.jpg);
     background-size: cover;
     min-height: 100vh;
-    .row{
-        .info-contacto-1{
+
+    .row {
+        .info-contacto-1 {
             background-color: black;
             opacity: 88%;
         }
-        .info-contacto-2{
-            
+
+        .info-contacto-2 {
+
             background-color: black;
             opacity: 91%;
-            label{
+
+            label {
                 color: white;
             }
         }
     }
+
     .container {
         .info-contacto {
             display: flex;

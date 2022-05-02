@@ -1,3 +1,7 @@
+.animate__animated.animate__bounce {
+  --animate-duration: 1s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -59,6 +63,47 @@ textarea {
 footer {
   background: #ffe15b;
   background: linear-gradient(35deg, #ffe15b 21%, #feee5a 23%, #df8c59 86%);
+}
+
+/*Conocenos*/
+.conocenos-cuerpo {
+  background: url(../img/fondo-conocenos-2.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.conocenos-cuerpo .row .columna-1 {
+  color: white;
+  background-color: #7B7263;
+  opacity: 83%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px;
+}
+
+.conocenos-cuerpo .row .columna-1 p {
+  padding: 20px;
+}
+
+.conocenos-cuerpo .row .columna-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conocenos-cuerpo .row .columna-2 img {
+  width: 300px;
+  height: 300px;
 }
 
 /*Servicios*/
