@@ -70,6 +70,7 @@ footer {
   background-color: black;
   opacity: 75%;
   color: white;
+  margin: 0 20px 0 0;
 }
 
 /*Conocenos*/
@@ -119,6 +120,7 @@ footer {
   background-image: url("../img/fondo-servicios.jpg");
   background-position: -145px -365px;
   background-size: auto;
+  overflow-x: hidden;
 }
 
 /*Redes sociales*/
