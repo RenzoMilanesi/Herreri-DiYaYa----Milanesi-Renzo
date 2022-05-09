@@ -65,6 +65,13 @@ footer {
   background: linear-gradient(35deg, #ffe15b 21%, #feee5a 23%, #df8c59 86%);
 }
 
+/*Index*/
+.texto-inicio {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+}
+
 /*Conocenos*/
 .conocenos-cuerpo {
   background: url(../img/fondo-conocenos-2.jpg);
@@ -229,7 +236,11 @@ footer {
   background: #e1306c;
 }
 
-/*Comienzo contacto*/
+/*Contacto*/
+.iframe-contacto {
+  max-width: 90%;
+}
+
 .cuerpo-contacto {
   background: url(../img/fondo-contacto.jpg);
   background-size: cover;
