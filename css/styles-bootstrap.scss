@@ -13,7 +13,13 @@
     
     
 }
-
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
 .navbar {
     background: rgb(231, 129, 66);
     background: linear-gradient(35deg, rgba(231, 129, 66, 1) 21%, rgba(255, 225, 91, 1) 87%);
@@ -32,10 +38,11 @@
 }
 
 .cuerpo-index {
-    margin: 0 15px 15px 15px;
-
     img {
-        @include alto-ancho-img(100%, 450px, revert)
+        
+        height: 100%;
+        width: 90%;
+        background-size: revert;
     }
 }
 
@@ -241,8 +248,10 @@ footer {
 
 
 /*Contacto*/
-.iframe-contacto{
-    max-width:90% ;
+.iframe-contacto,.video_index{
+    width: 600px;
+    height: 450px;
+    max-width:90%;
 
 }
 .cuerpo-contacto {
