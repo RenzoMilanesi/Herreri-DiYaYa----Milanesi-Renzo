@@ -1,25 +1,28 @@
 @import 'maps';
 @import 'mixin';
+
 .animate__animated.animate__bounce {
     --animate-duration: 1s;
-    
-  }
+
+}
 
 
 
 * {
     margin: 0;
     padding: 0;
-    
-    
+
+
 }
+
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
-  .custom-toggler.navbar-toggler {
-    border-color: rgb(255,102,203);
-  } 
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 102, 203);
+}
+
 .navbar {
     background: rgb(231, 129, 66);
     background: linear-gradient(35deg, rgba(231, 129, 66, 1) 21%, rgba(255, 225, 91, 1) 87%);
@@ -39,16 +42,18 @@
 
 .cuerpo-index {
     img {
-        
-        height: 100%;
-        width: 90%;
-        background-size: revert;
+        height: 85%;
+        width: 85%;
+        object-fit: cover;
     }
 }
 
 .galeria {
     img {
-        @include alto-ancho-img(100%, 450px, revert)
+        height:100%;
+        width: 100%;
+        object-fit: cover;
+
     }
 
     .col-lg-4 {
@@ -83,12 +88,13 @@ footer {
     background: rgb(255, 225, 91);
     background: linear-gradient(35deg, rgba(255, 225, 91, 1) 21%, rgba(254, 238, 90, 1) 23%, rgba(223, 140, 89, 1) 86%);
 }
+
 /*Index*/
-.texto-inicio{
+.texto-inicio {
     background-color: black;
     opacity: 75%;
     color: white;
-    margin: 0 20px 0 0;
+    
 }
 
 /*Conocenos*/
@@ -100,7 +106,7 @@ footer {
     .row {
 
         .columna-1 {
-            
+
             color: white;
             background-color: #7B7263;
             opacity: 83%;
@@ -108,7 +114,8 @@ footer {
             justify-content: center;
             align-items: center;
             padding: 3px;
-            p{
+
+            p {
                 padding: 20px;
             }
         }
@@ -246,14 +253,25 @@ footer {
     }
 }
 
+.navbar-dark {
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-toggler{
+        border: 0.5px solid black;
+    }
+}
+
 
 /*Contacto*/
-.iframe-contacto,.video_index{
+.iframe-contacto,
+.video_index {
     width: 600px;
     height: 450px;
-    max-width:90%;
+    max-width: 90%;
 
 }
+
 .cuerpo-contacto {
     background: url(../img/fondo-contacto.jpg);
     background-size: cover;
