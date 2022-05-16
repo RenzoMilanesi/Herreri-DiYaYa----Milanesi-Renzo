@@ -48,19 +48,7 @@
     }
 }
 
-.galeria {
-    img {
-        height:100%;
-        width: 100%;
-        object-fit: cover;
 
-    }
-
-    .col-lg-4 {
-        padding: 10px;
-    }
-
-}
 
 textarea {
     -webkit-box-sizing: border-box;
@@ -87,14 +75,18 @@ textarea {
 footer {
     background: rgb(255, 225, 91);
     background: linear-gradient(35deg, rgba(255, 225, 91, 1) 21%, rgba(254, 238, 90, 1) 23%, rgba(223, 140, 89, 1) 86%);
+
+
 }
+
+
 
 /*Index*/
 .texto-inicio {
     background-color: black;
     opacity: 75%;
     color: white;
-    
+
 }
 
 /*Conocenos*/
@@ -252,6 +244,7 @@ footer {
             background: #e1306c;
         }
     }
+
     .whatsapp {
 
         &:hover a,
@@ -262,7 +255,8 @@ footer {
     }
 }
 
-ol,ul{
+ol,
+ul {
     padding-left: 0rem;
 }
 
@@ -273,11 +267,99 @@ ol,ul{
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         border: 0.5px solid black;
     }
 }
 
+/*Galeria*/
+// .galeria {
+//     img {
+//         height:100%;
+//         width: 100%;
+//         object-fit: cover;
+
+//     }
+
+//     .col-lg-4 {
+//         padding: 10px;
+//     }
+
+// }
+
+.galeria {
+
+    .row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        figure {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 6px;
+            box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+                transition: all 500ms ease-out;
+                object-fit: cover;
+            }
+
+            .capa {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(160, 153, 22, 0.7);
+                transition: all 500ms ease-out;
+                opacity: 0;
+                visibility: hidden;
+                text-align: center;
+
+                h3 {
+                    color: black;
+                    font-weight: 500;
+                    margin-bottom: 180px;
+                    transition: all 500ms ease-out;
+                    margin-top: 30px;
+                }
+
+                p {
+                    color: black;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    width: 100%;
+                    margin: auto;
+
+                }
+            }
+
+            &:hover>img {
+                transform: scale(1.20);
+            }
+
+            &:hover>.capa {
+                opacity: 1;
+                visibility: visible;
+
+                h3 {
+                    margin-top: 70px;
+                    margin-bottom: 15px;
+                    transition: all 500ms ease-out;
+                }
+            }
+
+        }
+    }
+}
 
 /*Contacto*/
 .iframe-contacto,
@@ -319,5 +401,3 @@ ol,ul{
         }
     }
 }
-
-
