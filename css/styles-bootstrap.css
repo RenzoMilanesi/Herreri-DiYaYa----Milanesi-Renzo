@@ -1,36 +1,15 @@
-.animate__animated.animate__bounce {
-  --animate-duration: 1s;
-}
-
+/*Reseteo*/
 * {
   margin: 0;
   padding: 0;
 }
 
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+/*Cambio en el timing de la galeria importada */
+.animate__animated.animate__bounce {
+  --animate-duration: 1s;
 }
 
-.custom-toggler.navbar-toggler {
-  border-color: #ff66cb;
-}
-
-.navbar {
-  background: #e78142;
-  background: linear-gradient(35deg, #e78142 21%, #ffe15b 87%);
-}
-
-.navbar .navbar-brand > img {
-  width: 75px;
-  height: 75px;
-}
-
-.navbar .nav a:hover {
-  background-color: black;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-}
-
+/*Index*/
 .cuerpo-index img {
   height: 85%;
   width: 85%;
@@ -38,34 +17,13 @@
      object-fit: cover;
 }
 
-textarea {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.form-btn .form-btn-reset, .form-btn .form-btn-submit {
-  background-color: black;
-  color: white;
-}
-
-.border-servicios {
-  border: 1px solid white;
-}
-
-footer {
-  background: #ffe15b;
-  background: linear-gradient(35deg, #ffe15b 21%, #feee5a 23%, #df8c59 86%);
-}
-
-/*Index*/
-.texto-inicio {
+.cuerpo-index .row .texto-presentacion .texto-inicio {
   background-color: black;
   opacity: 75%;
   color: white;
 }
 
-/*Conocenos*/
+/*Quienes Somos*/
 .conocenos-cuerpo {
   background: url(../img/fondo-conocenos-2.jpg);
   background-size: cover;
@@ -114,7 +72,17 @@ footer {
   background-size: auto;
 }
 
-/*Redes sociales*/
+.servicios-global .container .row .border-servicios {
+  border: 1px solid white;
+}
+
+/*Footer*/
+footer {
+  background: #ffe15b;
+  background: linear-gradient(35deg, #ffe15b 21%, #feee5a 23%, #df8c59 86%);
+}
+
+/*Redes sociales en el footer*/
 .wrapper {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -236,12 +204,40 @@ footer {
   background: #25d366;
 }
 
+/*Eliminacion de padding que viene por defecto en bootstrap*/
 ol,
 ul {
   padding-left: 0rem;
 }
 
 /*navbar*/
+.navbar {
+  background: #e78142;
+  background: linear-gradient(35deg, #e78142 21%, #ffe15b 87%);
+}
+
+.navbar .container-fluid .navbar-brand > img {
+  width: 75px;
+  height: 75px;
+}
+
+.navbar .container-fluid .nav a:hover {
+  background-color: #935139;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.navbar .container-fluid .actual {
+  background: black;
+  border-radius: 15px;
+}
+
+.navbar .container-fluid .nav-link {
+  padding-left: 10px;
+}
+
+/*Cambio de color del menu hamburguesa*/
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -266,7 +262,7 @@ ul {
 
 .galeria .row figure {
   position: relative;
-  height: 100%;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   border-radius: 6px;
