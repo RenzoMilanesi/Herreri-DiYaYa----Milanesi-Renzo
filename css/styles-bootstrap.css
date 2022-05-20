@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/*Cambio en el timing de la galeria importada */
+/*Cambio en el timing de las animaciones importada */
 .animate__animated.animate__bounce {
   --animate-duration: 1s;
 }
@@ -295,7 +295,7 @@ ul {
 
 .galeria .row figure .capa h3 {
   color: black;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 180px;
   -webkit-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
@@ -304,8 +304,9 @@ ul {
 
 .galeria .row figure .capa p {
   color: black;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
   width: 100%;
   margin: auto;
 }
@@ -327,7 +328,7 @@ ul {
   transition: all 500ms ease-out;
 }
 
-/*Contacto*/
+/*Iframes en Index y Contacto*/
 .iframe-contacto,
 .video_index {
   width: 600px;
@@ -335,6 +336,7 @@ ul {
   max-width: 90%;
 }
 
+/*Contacto*/
 .cuerpo-contacto {
   background: url(../img/fondo-contacto.jpg);
   background-size: cover;
@@ -343,7 +345,7 @@ ul {
 
 .cuerpo-contacto .row .info-contacto-1 {
   background-color: black;
-  opacity: 88%;
+  opacity: 85%;
 }
 
 .cuerpo-contacto .row .info-contacto-2 {
